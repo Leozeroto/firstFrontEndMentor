@@ -1,0 +1,75 @@
+body {
+    font-size: 12px;
+    height: 630px;
+    width: 1200px;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+.card {
+    border-radius: 50px;
+    box-shadow: 0px 10px 13px -7px #000000;
+    width: 800px;
+    height: 500px;
+    top: 50px;
+    left: 200px;
+    right: 100px;
+    bottom: 10px;
+}
+
+
+.img1 {
+    position: absolute;
+    bottom: 150px; 
+    left: 100px; 
+    z-index: 0;
+}
+
+.img2 {
+    position: relative;
+    bottom: 400px; 
+    left: 80px; 
+    z-index: 1;
+}
+
+.img3 {
+    position: relative;
+    bottom: 450px; 
+    right: 100px; 
+    width: 500px; 
+    
+}
+
+.card-body {
+    position: relative; 
+    top: 80px; 
+    left: 400px; 
+}  
+
+
+
+.dropdown-divider {
+    color: hsl(240, 5%, 91%)
+}
+
+
+p {
+    color: hsl(238, 29%, 16%);
+    font-family: 'Comforter', cursive;
+
+    font-family: 'Comforter Brush', cursive;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.title:hover {
+    color: hsl(14, 88%, 65%)
+}
+
+.btn:hover {
+    color: hsl(14, 88%, 65%)
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
